@@ -1,0 +1,177 @@
+section {
+    margin-left:200px;
+    margin-right:200px;
+    color:blanchedalmond;
+    background-color: #181818;
+
+}
+
+body {
+    color: blanchedalmond;
+    background-color: #181818;
+}
+
+.sort {
+    display: flex;
+    
+}
+
+.cote {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.bg-garen {
+    background-image: url("image/garenFond2.jpg");
+    background-repeat: no-repeat;
+    border: grey solid 3px;
+    color:#181818;
+   padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+}
+
+.bg-nasus {
+    background-image: url("image/nasusFond.jpg");
+    background-repeat: no-repeat;
+    border: grey solid 3px;
+    color:#181818;
+   padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+}
+
+.bg-lulu {
+    background-image: url("image/luluFond.jpg");
+    background-repeat: no-repeat;
+    border: grey solid 3px;
+    color:#181818;
+   padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+}
+
+.bg-darius {
+    background-image: url("image/dariusFond.jpg");
+    background-repeat: no-repeat;
+    border: grey solid 3px;
+    color:#181818;
+   padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+}
+
+.bg-pantheon {
+    background-image: url("image/pantheonFond.jpg");
+    background-repeat: no-repeat;
+    border: grey solid 3px;
+    color:#181818;
+   padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+}
+.nasus {
+    border: green solid 3px;
+}
+
+
+.title-champ {
+    font-size: 40px;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    margin-top: -28px;
+    margin-left: 117px;
+}
+
+.skill img {
+    margin-right: 0.5px;
+    
+}
+
+.profilChamp {
+    margin-top: 20px;
+}
+
+.image-champ {
+   display: flex;
+}
+.size-image {
+    width: 324px;
+    height: 101px;
+    
+}
+.size-photo-champ {
+    width: 115px;
+    height: 131px;
+}
+
+.footi {
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+   
+}
+
+.navigateur {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: space-evenly;
+    color:white
+   
+    
+}
+.navigateur a {
+    text-decoration: none;
+}
+
+.navigateur a:visited
+{
+    color:white;
+}
+
+.navigateur a:hover
+{
+    color:blue;
+}
+
+
+.onglet:hover{
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot:hover {
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 200px;
+    width: auto;
+
+}
+
+.riot {
+    
+    padding-top: 20px;
+    padding-left: 680px;
+    font-size: 11px;
+}

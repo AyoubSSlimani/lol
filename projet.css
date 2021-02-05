@@ -1,0 +1,119 @@
+
+body {
+    background-color: black;
+    color: #ffebcd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titre{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.fond{
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/24/04/40/2404402f37d4be7c7bb6626ce77fe278.jpg");
+    margin: -8px;
+}
+
+.salut {
+    padding-top: 8rem;
+}
+
+.champ {
+    display: flex;
+    border: blanchedalmond solid 3px;
+}
+
+.size-images {
+    width: 400px ;
+    height: 150px;
+    border: #ffebcd solid 1px;
+    margin-left: 490px;
+    margin-top: 50px;
+}
+
+.size-images2 {
+        width:600px;
+        height: 350px;
+}
+
+.text {
+    padding-left: 5px;
+    text-align: justify;
+    width: 880px;
+}
+
+.champtexte {
+    display: flex;
+    flex-direction: column;
+}
+
+.spell {
+    width: 80px;
+    height: 70px;
+    flex-direction: row;
+    display: flex;
+    padding-right: 400px;
+margin-left: 70px;
+margin-top: -120px;
+}
+
+.footi {
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+   
+}
+
+.navigateur {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: space-evenly;
+    color:white
+   
+    
+}
+.navigateur a {
+    text-decoration: none;
+}
+
+.navigateur a:visited
+{
+    color:white;
+}
+
+.navigateur a:hover
+{
+    color:blue;
+}
+
+
+.onglet:hover{
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot:hover {
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 200px;
+    width: auto;
+
+}
+
+.riot {
+    
+    padding-top: 20px;
+    padding-left: 680px;
+    font-size: 11px;
+}
